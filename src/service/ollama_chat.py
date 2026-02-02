@@ -7,7 +7,7 @@ def chat(user_messages):
     messages = [
         (
             "system",
-            "You are a helpful assistant that answer the user questions about hospitality.",
+            "You are a helpful assistant that answer the user questions about medical.",
         ),
         ("human", user_messages),
     ]
